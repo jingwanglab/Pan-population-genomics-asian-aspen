@@ -72,7 +72,7 @@ mummer.sh - Script to obtain mummer alignment results.
 (2) visualize SYRI results by plotsr.
 syri.sh - Script to visualize the results of syri.
 
-## Before caculate synteny diversity, please run all pairwise whole genome comparison using MUMmer and run SyRi to identify the syntenic and rearranged regions for each comparison.
+Before caculate synteny diversity, please run all pairwise whole genome comparison using MUMmer and run SyRi to identify the syntenic and rearranged regions for each comparison.
 Let's assume all the alignments in a folder like below:
 	/xxx/SD_HR
 	/xxx/SD_HR/ZL2020-SXHZ
@@ -104,7 +104,7 @@ for i in {ZL2020-SXHZ,ZSP191aL,ZSP192L,ZSP194L,ZSP196L};do for j in {1..19};do c
 run.cal.syn.div.pl - Script to caculate synteny diversity for every postion of each chromosome.
 syn.div.merge.pl - Script to merge and calculate synteny diversity for every postion of genome.
 
-(7) Calculate collinear diversity using calculate.syn.diversity.window.pl with window and step. 
+(8) Calculate collinear diversity using calculate.syn.diversity.window.pl with window and step. 
 for k in {1..19}; do perl calculate.syn.diversity.window.pl ./Chr$k.syn.div.pos.txt 10000 2000 ./Chr$k.syn.div.win10kb.step2kb.txt & done &
 for k in {1..19}; do perl calculate.syn.diversity.window.pl ./Chr$k.syn.div.pos.txt 200000 200000 ./Chr$k.syn.div.win200kb.step200kb.txt & done &
 calculate.syn.diversity.window.pl - Script to calculate synteny diversity in a given window	.
