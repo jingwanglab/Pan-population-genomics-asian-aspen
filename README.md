@@ -59,7 +59,7 @@ TE_analysis.sh - Script to integrate TE analysis.
 2.Pan-genome analysis
 (1) Genome_pangenome.sh - Script to construct sequence-based pan-genome and align paired genome sequences using MUMMER. 
 
-(2) wga.pangenome.py - Script to extract core, dispensable and priveta region in each genome.
+(2) wga.pangenome.py - Script to extract core, variable and specific region in each genome.
 
 (3) Gene_pangenome.sh - Script to construct gene-based pan-genome.
 
