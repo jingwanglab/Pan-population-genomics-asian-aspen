@@ -135,7 +135,7 @@ All filtered SNPs, indels, and SVs datasets were merged using GATK for subsequen
 
 
 5.GEA (Genotype-Environment Association) analyses are conducted using LFMM, GEMMA and RDA.
-(1) 58_environment_cor.R - Script to calculate the correlation between 58 environments.
+(1) environment_cor.R - Script to calculate the correlation between environmental variables.
 
 (2) GF.R - Script to calculate the importance of the environment using GF.
 
